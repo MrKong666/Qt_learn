@@ -39,7 +39,7 @@ ui->textEdit->insertPlainText("hello world!\n");
     QTextCursor cursor=ui->textEdit->textCursor();
     cursor.insertFrame(frameformat);
     cursor.insertText("hello innertext\n");
-    cursor.insertText(" haha sligoywlb");
+    cursor.insertText(" haha ");
 ```
 ## 遍历文本块
 我们可以遍历文本块和框架节点，先添加一个action，用来接收信号，绑定槽函数，再来实现槽函数。
